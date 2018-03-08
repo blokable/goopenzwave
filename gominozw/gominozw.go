@@ -6,7 +6,7 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/jimjibone/goopenzwave"
+	"goopenzwave"
 )
 
 type NodeInfo struct {

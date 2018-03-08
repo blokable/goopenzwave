@@ -1,8 +1,8 @@
 package goopenzwave
 
-// #cgo LDFLAGS: -Wl,-rpath,${SRCDIR}/open-zwave -L${SRCDIR}/open-zwave -lopenzwave
-// #cgo CFLAGS: -I${SRCDIR}/open-zwave/cpp/src
-// #cgo CPPFLAGS: -I${SRCDIR}/open-zwave/cpp/src
+// #cgo pkg-config: libopenzwave
+// #cgo CFLAGS: -I/usr/local/include
+// #cgo CPPFLAGS: -I/usr/local/include
 // #include "gzw_manager.h"
 // #include "gzw_notification.h"
 // #include <stdlib.h>
